@@ -11,7 +11,7 @@ A dynamic mobile-friendly online platform for the flower store that effectively 
 ## Media
 
 <div>
-    <img src="./public/assets/main-demo.gif" width="260" height="160"/>
-    <img src="./public/assets/cart-demo.gif" width="260" height="160"/>
-    <img src="./public/assets/menu-demo.gif" width="260" height="160"/>
+    <img src="./public/assets/main-demo.gif" width="260" height="150"/>
+    <img src="./public/assets/cart-demo.gif" width="260" height="150"/>
+    <img src="./public/assets/menu-demo.gif" width="260" height="150"/>
 </div>

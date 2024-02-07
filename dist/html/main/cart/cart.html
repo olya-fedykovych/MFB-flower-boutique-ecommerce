@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFB Cart</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body id="bg-img">
+    <header id="header">
+
+        <div class="main-logo">
+            <a href="/dist/html/main/main.html" class="logo-link">
+                <img src="../../../img/Logo.svg" alt="logo"/>
+            </a>
+        </div>
+
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <div class="cart">
+            <a href="/dist/html/main//cart/cart.html" class="main-cart">
+                <i id="main-cart" class="fas fa-cart-shopping"></i>
+                <div id="cartAmount" class="cartAmount">0</div>
+            </a>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-branding">
+                <img src="../../../img/Logo.svg" alt="logo"/>
+                
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="/dist/html/main/main.html" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/dist/html/main/bouquets.html" class="nav-link">
+                        Bouquets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/dist/html/main/gallery.html" class="nav-link">
+                        Gallery
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/dist/html/main/contact.html" class="nav-link">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="cart">
+
+        <div id="cart-title-container">
+            <h1 class="cart-title lg-heading">Your <span class="text-secondary">Cart</span></h1>
+        </div>
+        <div class="cart-container">
+            <div id="shopping-cart" class="shopping-cart">
+            </div>
+            <div id="label" class="text-center"></div>
+        </div>
+    </main>
+    
+
+        <footer id="main-footer" class="cart-footer">
+            <div class="footer-info">
+                <h4>MFB</h4>
+                <a href="">About Us</a>
+                <a href="">Terms and Conditions</a>
+                <a href="../contact.html" target="_blank">Contact Us </a>
+            </div>
+            <div class="footer-info">
+                <h4>Customer</h4>
+                <a href="">Privacy Policy</a>
+                <a href="">Payment Methods</a>
+                <a href="">Returns & Delivery</a>
+            </div>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://web.tlgrm.app" target="_blank" class="social-icon">
+                        <i class="fab fa-telegram fa-2x"></i>
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank" class="social-icon">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                </a>
+            </div>
+        </footer>
+
+    <script src="/dist/js/menu.js"></script>
+    <script src="/dist/js/header.js"></script>
+    <script src="/dist/js/Data.js"></script>
+    <script src="/dist/js/cart.js"></script>
+</body>
+</html>

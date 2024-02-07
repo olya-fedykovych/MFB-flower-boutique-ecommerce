@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFB Main Page</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="main-header-container" id="header">
+        <div class="main-logo">
+            <a href="#home"  class="logo-link">
+                <img src="../../img/Logo.svg" alt="logo"/>
+            </a>
+        </div>
+
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <div class="cart">
+            <a href="/dist/html/main/cart/cart.html" class="main-cart">
+                <i id="main-cart" class="fas fa-cart-shopping"></i>
+                <div id="cartAmount" class="cartAmount">0</div>
+            </a>
+        </div>
+
+
+        <nav class="menu">
+            <div class="menu-branding">
+                <img src="../../img/Logo.svg" alt="logo">
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item current">
+                    <a href="/dist/html/main/main.html" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/dist/html/main/bouquets.html" class="nav-link">
+                        Bouquets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/dist/html/main/gallery.html" class="nav-link">
+                        Gallery
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/dist/html/main/contact.html" class="nav-link">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+        <section id="home" class="hero">
+            <div class="home-overlay">
+                <h1 class="xlg-heading">
+                    <span class="text-secondary" data-text="NATURE.">FLOWER</span> BOUTIQUE.
+                </h1>
+                <h4 class="md-heading">
+                    Fresh & stylish flower compositions
+                </h4>
+                <div class="shop-now">
+                    <a href="/dist/html/main/bouquets.html" class="button">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us">
+            <div class="icon-container">
+                <div class="icon delivery-icon" >
+                    <img src="/dist/img/why-us-icons/delivery.png" alt="" class="delivery-img">
+                    <h4 class="sm-heading">1-3 Day Delivery</h4>
+                </div>
+                <div class="icon discount-icon" >
+                    <img src="/dist/img/why-us-icons/discount.png" alt="" class="discount-img">
+                    <h4 class="sm-heading">Discounts for Loyal Customers</h4>
+                </div>
+                <div class="icon sustainability-icon" >
+                    <img src="/dist/img/why-us-icons/recycle.png" alt="" class="recycle-img">
+                    <h4 class="sm-heading">100% Sustainable</h4>
+                </div>
+            </div>
+        </section>
+
+        <section id="bouquets">
+            <div class="overlay-bouquets">
+                <h2 class="lg-heading main-bouquet-title">
+                    OUR <span class="text-secondary">BOUQUETS</span>
+                </h2>
+                <h3 class="sm-heading main-bouquet-subtitle">
+                    Available Flower Compositions 
+                </h3>
+                <div class="items" id="items-main">
+
+                </div>
+                <div class="see-more">
+                    <a href="/dist/html/main/bouquets.html" class="button">See More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <div class="main-newsletter-container">
+                <img src="/dist/img/newsletter-imgs/ph_flower-lotus-thinflower-left.png" alt="" class="flower-left">
+                <img src="/dist/img/newsletter-imgs/ph_flower-lotus-thinflower-right.png" alt="" class="flower-right">
+                
+                <div class="slogan-container">
+                    <h2 class="lg-heading">BEAUTIFUL <span class="text-secondary">BLOOMS</span> FOR EACH TASTE. </h2>
+                    <img src="/dist/img/newsletter-imgs/slogan-img.jpg" class="slogan-img" width="400px" height="500px">
+                </div>
+                
+                <div class="newsletter-container">
+                    <img src="/dist/img/newsletter-imgs/newsletter-img.jpg" alt="" class="newsletter-img" width="350px" height="500px">
+                    <div class="newsletter-text-container">
+                        <h2 class="lg-heading">Subscribe to our <span class="text-secondary">NEWSLETTER</span></h2>
+                        <div class="newsletter-email-big"><label for="email">Your Email</label>
+                            <input type="email" placeholder="example@example.com">
+                            <button type="submit" class="button">Subscribe</button>
+                        </div>
+                        <div class="newsletter-email-small">
+                            <label for="email">Your Email</label>
+                            <input type="email" placeholder="example@example.com">
+                            <button type="submit" class="button">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsletter-overlay">
+                    <img src="/dist/img/newsletter-imgs/overlay-img.jpg" class="overlay-img" width="350px" height="500px">
+                </div>
+            </div>
+        </section>
+    
+
+        <footer id="main-footer">
+            <div class="footer-info">
+                <h4>MFB</h4>
+                <a href="">About Us</a>
+                <a href="">Terms and Conditions</a>
+                <a href="./contact.html" target="_blank">Contact Us </a>
+            </div>
+            <div class="footer-info">
+                <h4>Customer</h4>
+                <a href="">Privacy Policy</a>
+                <a href="">Payment Methods</a>
+                <a href="">Returns & Delivery</a>
+            </div>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://web.tlgrm.app" target="_blank" class="social-icon">
+                        <i class="fab fa-telegram fa-2x"></i>
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank" class="social-icon">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                </a>
+            </div>
+        </footer>
+
+    <script src="/dist/js/menu.js"></script>
+    <script src="/dist/js/header.js"></script>
+    <script src="/dist/js/Data.js"></script>
+    <script src="/dist/js/bouquets_main.js"></script>
+    <script src="/dist/js/cart.js"></script>
+</body>
+</html>

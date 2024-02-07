@@ -1,0 +1,45 @@
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s;
+
+    &.bg-true {
+        background-color: rgba(#fff, 0.7);
+    }
+    
+}
+
+
+.main-logo {
+    transform: scale(60%);
+    margin-top: 12px;
+    margin-left: -10px;
+    padding: 0;
+}
+
+
+#main-cart {
+    transform: scale(138%);
+    position: absolute;
+    top: 36px;
+    right: 85px;
+
+    &:hover {
+        color: $secondary-color;
+        @include easeOut;
+        cursor: pointer;
+    }
+}
+
+.cartAmount {
+    font-weight: 600;
+    position: absolute;
+    top: 16px;
+    right: 75px;
+}

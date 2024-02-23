@@ -1,10 +1,61 @@
+@include mediaXXL {
+    section {
+        &#home {
+            height: 82vh;
+            background-size: 100% 200%;
+            background-position: 50% 30%;
+        }
+
+        &#newsletter {
+            .flower-right {
+                right: 12vw;
+            }
+
+            .slogan-container {
+                gap: 4rem;
+            }
+        }
+    }
+
+    #checkout {
+        .form-container {
+            margin-top: -8rem;
+        }
+    }
+
+    .main-logo {
+        transform: scale(70%);
+        margin-left: 10px;
+    }
+
+    .menu-btn {
+        transform: scale(118%);
+        right: 60px;
+    }
+
+    #main-cart {
+        transform: scale(168%);
+        right: 115px;
+    }
+
+    .cartAmount {
+        right: 100px;
+    }
+}
+
 
 @include mediaXL {
     section {
         
         &#home {
-            background-image: url('/dist/img/background/Bunch\ of\ white\ roses.jpg');
-            background-size: cover;
+            background-position: 50% 30%;
+            background-size: 100% 200%;
+        }
+    }
+
+    #newsletter {
+        .slogan-container {
+            gap: 8rem;
         }
     }
 
@@ -37,13 +88,15 @@
         margin-top: 2rem;
     }
 
-
-    #checkout {
+    #cart {
         .cart-title {
             margin-left: 2rem;
             padding-left: 1rem;
         }
+    } 
 
+
+    #checkout {
         .input-container {
             gap: 5rem;
         }
@@ -63,6 +116,7 @@
 
         &#home {
             background-image: url('/dist/img/background/background-main.jpeg');
+            background-position: left;
         }
 
         &#why-us {
@@ -295,6 +349,11 @@
     }
 
     section {
+
+        &#home {
+            background-size: 120% 100%;
+            background-position: top left;
+        }
 
         &#why-us {
 
@@ -587,7 +646,10 @@
     section {
 
         &#home {
-            height: 750px;
+            // height: 750px;
+            background-size: 170% 100%;
+            background-position: top left;
+
 
             .md-heading {
                 padding: 0;
@@ -727,11 +789,16 @@
     }
 
     .main-product-container {
-        margin-top: 2rem;
+        margin-top: 4rem;
         width: 100%;
 
         .product-name {
             margin-top: -2rem;
+        }
+
+        .secondary-img-container {
+            width: 300px;
+
         }
 
 
@@ -853,6 +920,7 @@
     
 
     .form-container {
+        margin-top: 1rem;
         
         form {
 

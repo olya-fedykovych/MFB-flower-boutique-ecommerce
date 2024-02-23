@@ -20,7 +20,7 @@ body {
     background-color: $primary-background-color;
     height: 100%;
     margin: 0;
-    color: set-text-color($primary-color);
+    color: #000;
     font-family: 'Didot', serif;
     line-height: 1.5;
 }
@@ -45,7 +45,7 @@ section {
             background-repeat: no-repeat;
             object-fit: contain;
             overflow: hidden;
-            height: 780px;
+            height: 100vh;
 
         
 
@@ -57,7 +57,7 @@ section {
         }
 
         .xlg-heading {
-            margin-top: 10rem;
+            margin-top: 12rem;
         }
         
     }
@@ -178,7 +178,8 @@ section {
             padding-left: 2rem;
 
             .lg-heading {
-                margin: 0;
+                margin-left: 4rem;
+                margin-top: 0;
             }
         }
 
@@ -198,6 +199,7 @@ section {
             .newsletter-text-container {
                 display: flex;
                 flex-direction: column;
+
 
                 .lg-heading {
                     margin-top: 0;
@@ -263,7 +265,7 @@ section {
 
 
 a {
-    color: set-text-color($primary-color);
+    color: #000;
     text-decoration: none;
     scroll-behavior: smooth;
     @include easeOut;
@@ -278,7 +280,6 @@ a {
 .items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    //gap: 1rem;
 
     img {
         max-inline-size: 100%;
@@ -370,11 +371,11 @@ a {
     border: 0;
     margin: 0;
     background-color: lighten($secondary-color, 50);
-    color: set-text-color($primary-color);
+    color: #000;
     
     &:hover {
         background:lighten($secondary-color, 35);
-        color: set-text-color($primary-color);
+        color: #000;
         transform: scale(1.025);
         @include easeOut;
     }
@@ -395,10 +396,6 @@ a {
     object-fit: cover;
     
 }
-
-//.cart-contact {
-   // color: #fff;
-//}
 
 #contact {
     display: flex;

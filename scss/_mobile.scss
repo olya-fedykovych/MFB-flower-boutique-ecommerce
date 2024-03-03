@@ -4,15 +4,29 @@
             height: 82vh;
             background-size: 100% 200%;
             background-position: 50% 30%;
+
+            .xlg-heading {
+                margin-top: 24rem;
+            }
         }
 
         &#newsletter {
+            .flower-left {
+                left: 7vw;
+            }
+
             .flower-right {
                 right: 12vw;
             }
 
             .slogan-container {
-                gap: 4rem;
+                gap: 14rem;
+            }
+        }
+
+        &#bouquets {
+            #items-main {
+                gap: 8rem;
             }
         }
     }
@@ -41,6 +55,14 @@
     .cartAmount {
         right: 100px;
     }
+
+    .items {
+        grid-template-columns: repeat(4, 1fr) !important;
+
+        .item {
+            max-width: 500px;
+        }
+    }
 }
 
 
@@ -50,14 +72,29 @@
         &#home {
             background-position: 50% 30%;
             background-size: 100% 200%;
+
+            .xlg-heading {
+                margin-top: 18rem;
+            }
+        }
+
+        &#newsletter {
+            .slogan-container {
+                gap: 8rem;
+            }
+
+            .flower-right {
+                right: 8vw;
+            }
+        }
+
+        &#bouquets {
+            #items-main {
+                gap: 6rem;
+            }
         }
     }
 
-    #newsletter {
-        .slogan-container {
-            gap: 8rem;
-        }
-    }
 
     .items {
         grid-template-columns: repeat(4, 1fr);
@@ -101,13 +138,9 @@
             gap: 5rem;
         }
     }
-
-    
 }
 
 @include mediaL {
-
-
     .items {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -142,6 +175,12 @@
                         width: 60px;
                     }
                 }
+            }
+        }
+
+        &#bouquets {
+            #items-main {
+                gap: 3rem;
             }
         }
 
@@ -646,7 +685,6 @@
     section {
 
         &#home {
-            // height: 750px;
             background-size: 170% 100%;
             background-position: top left;
 
